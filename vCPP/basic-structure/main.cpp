@@ -15,5 +15,12 @@ Last Modified: 09/22/2026
 #include <stack>
 
 int main() {
-  
+  // Create a stack structure.
+  std::stack<int> intStack;
+
+  // Stack
+  st.push(20);
+  st.push(40)
+
+    
 }
