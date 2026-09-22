@@ -20,12 +20,13 @@ int main() {
 
   // Stack
   intStack.push(20);
+  intStack.push(30);
   intStack.push(40);
-  intStack.push
 
   // Pop and save the value at the top
-  intStack.pop()
+  int topMost = intStack.pop();
 
   // Output
   std::cout << intStack << std::endl;
+  std::cout << "Top Most Value: " << std::to_string(intStack) << std::endl;
 }
