@@ -19,8 +19,13 @@ int main() {
   std::stack<int> intStack;
 
   // Stack
-  st.push(20);
-  st.push(40)
+  intStack.push(20);
+  intStack.push(40);
+  intStack.push
 
-    
+  // Pop and save the value at the top
+  intStack.pop()
+
+  // Output
+  std::cout << intStack << std::endl;
 }
